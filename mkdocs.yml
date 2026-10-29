@@ -1,3 +1,8 @@
 site_name: My Docs
+
 theme:
-    name: mkdocs
+  name: material
+
+plugins:
+  - search
+  - mermaid2
