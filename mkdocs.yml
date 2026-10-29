@@ -1,8 +1,23 @@
-site_name: My Docs
+site_name: Tan's Lab
 
 theme:
   name: material
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - navigation.sections
+    - content.code.copy
+    - search.highlight
 
 plugins:
   - search
   - mermaid2
+
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+    alternate_style: true
+  - pymdownx.highlight
